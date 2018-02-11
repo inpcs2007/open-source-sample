@@ -80,13 +80,14 @@ mvn clean package
 - 构建好的结果。
 ```
 
-### 项目架构和主要功能 Architecture/Core Technical Concepts
+### 应用架构和主要功能 System Architecture/Key Features/Core Technical Concepts
 这是一个简单的Java项目，运行后输出"Hello,world"。
 
 ```
-在项目架构和主要功能这个章节中，一般包含如下的内容，
+在应用架构和主要功能这个章节中，一般包含如下的内容，
 - 项目的应用架构、部署架构等。
-- 用尽量简单的方式描述项目包含的核心组件及其功能。
+- 描述项目包含的核心组件及其功能。
+- 用尽量简单的方式参数核心技术概念。
 ```
 
 ### 如何运行 How to Run
