@@ -35,7 +35,7 @@
 - 比较类似的项目，和别的项目比较的话，有什么特别的地方。
 ```
 
-### 一分钟快速入门 Getting Started/Requirements/Prerequisites/Dependencies
+### 一分钟快速入门 Getting Started
 
 本项目使用非常简单，在如下方面进行了规范，
 - REAEME.md
@@ -52,7 +52,7 @@
 - 如何运行
 ```
 
-### 项目结构和构建
+### 项目结构和构建 Project Structure And Build
 
 整个项目结构如下，
 ```
@@ -80,7 +80,7 @@ mvn clean package
 - 构建好的结果。
 ```
 
-### 项目架构和主要功能 Core Technical Concepts
+### 项目架构和主要功能 Architecture/Core Technical Concepts
 这是一个简单的Java项目，运行后输出"Hello,world"。
 
 ```
@@ -89,7 +89,7 @@ mvn clean package
 - 用尽量简单的方式描述项目包含的核心组件及其功能。
 ```
 
-### 如何运行
+### 如何运行 How to Run
 
 在项目编译好了之后，请使用java -cp ./target/ Hello命令运行程序，将在控制台看到Hello,world的输出结果。
 
@@ -110,9 +110,10 @@ mvn clean package
 - 常见的错误和FAQ。
 - 注意事项，例如当前项目的安全性待考察等等。
 - 项目的单元测试、功能测试等。
+- 若项目已开源并有在用的商业用户，可以列出。
 ```
 
-### 下一步
+### 下一步 Next Steps
 
 ```
 在下一步这个章节中，一般包含如下的内容，
@@ -127,8 +128,8 @@ mvn clean package
 - Format for commit messages
 - Thank you (name contributors)
 
-### 联系
+### 联系 Contact
 我们的邮箱地址：framework@ppdai.com，欢迎来信联系。
 
-### License
+### 授权方式 License
 Apache License 2.0
