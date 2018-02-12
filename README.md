@@ -1,4 +1,4 @@
-这是一个README的范本文件，如何对项目进行开源准备，请先阅读OPEN_STEPS.md文件。
+这是一个README的范本文件，如何对项目进行开源准备，请先阅读OPEN-GUIDE.md文件。
 
 ### 项目简介 Project Name/Intro
 
