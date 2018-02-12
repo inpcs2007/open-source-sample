@@ -1,3 +1,4 @@
+这是一个README的范本文件，如何对项目进行开源准备，请先阅读OPEN_STEPS.md文件。
 
 ### 项目简介 Project Name/Intro
 
@@ -18,7 +19,7 @@
 
 ### 为什么有这个项目 Inspiration
 
-在一个项目走向开源的过程中，选择合理的开源授权方式，实现规范化的项目结构，提供必要的说明使用文档，都是一个优秀开源项目所必须走的步骤。本项目提供了一个模板，方便拍拍贷各个项目在准备开源时进行参考，完善所需要的改造，做好开源前的一切准备。
+在一个项目走向开源的过程中，选择合理的开源授权方式，实现规范化的项目结构，提供必要的说明使用文档，都是一个优秀开源项目所必须走的步骤。本项目提供了一个模板，方便各个项目在准备开源时进行参考，完善所需要的改造，做好开源前的一切准备。
 
 本项目主要面向开源项目负责人和开发者。
 
@@ -26,7 +27,7 @@
 - Zalando的[开源项目模板](https://github.com/zalando/zalando-howto-open-source)
 - CFPB的[开源项目模板](https://github.com/cfpb/open-source-project-template)
 
-上面的开源项目提供了非常不错的开源模板，与之相比，本项目针对拍拍贷的开源需求进行了定制化的内容，使得更加具体和方便可用。
+上面的开源项目提供了非常不错的开源模板，与之相比，本项目针对自身的开源需求进行了定制化的内容，使得更加具体和方便可用。
 
 ```
 在Why这个章节中，一般会包含如下方面的内容，
@@ -60,7 +61,7 @@
 - README.md
 - LICENSE
 + src
-  - java/main/Hello.java
+  - main/java/Hello.java
 ```
 
 项目编译需要使用到JDK 8+，并使用Maven 3.0+工具进行构建打包。
@@ -92,7 +93,7 @@ mvn clean package
 
 ### 如何运行 How to Run
 
-在项目编译好了之后，请使用java -cp ./target/ Hello命令运行程序，将在控制台看到Hello,world的输出结果。
+在项目编译好了之后，请使用java -cp ./target/classes/ Hello命令运行程序，将在控制台看到Hello,world的输出结果。
 
 ```
 在如何运行这个章节中，一般包含如下的内容，
@@ -112,6 +113,7 @@ mvn clean package
 - 注意事项，例如当前项目的安全性待考察等等。
 - 项目的单元测试、功能测试等。
 - 若项目已开源并有在用的商业用户，可以列出。
+- 如何贡献代码，贡献者列表，编码规范和要求。
 ```
 
 ### 下一步 Next Steps
@@ -122,12 +124,6 @@ mvn clean package
 - 即将开发、待发布的功能和版本。
 - 更详细项目参考文档地址。
 ```
-
-### 如何贡献代码 Contributing
-- Contributor Guidelines
-- Code Style/Requirements
-- Format for commit messages
-- Thank you (name contributors)
 
 ### 联系 Contact
 我们的邮箱地址：framework@ppdai.com，欢迎来信联系。

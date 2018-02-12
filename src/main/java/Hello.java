@@ -12,11 +12,20 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * limitations under the License.
  */
- 
-public class Hello{
-    
-    public static void main(String[] args){
+
+/**
+ * 这是一个简单的类注释示范样例。
+ * <p>
+ * <p>主程序文件 <code>Hello</code> 在控制台上输出"Hello,world"。
+ *
+ * @author huangyinhuang
+ * @version 2/10/2018
+ */
+
+public class Hello {
+
+    public static void main(String[] args) {
         System.out.println("Hello,world");
     }
-    
+
 }
