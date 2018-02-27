@@ -128,5 +128,5 @@ mvn clean package
 ### 联系 Contact
 我们的邮箱地址：framework@ppdai.com，欢迎来信联系。
 
-### 授权方式 License
+## 开源许可协议 License
 Apache License 2.0
